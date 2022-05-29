@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="write here what is this project" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, javaScript, Bootstrap, SCSS, React"
+    />
+    <meta name="author" content="Mohamed Al-Barry" />
+    <link rel="author" href="mailto:mbrsyr@yahoo.com" />
+    <script
+      src="https://kit.fontawesome.com/ef0ec2ef31.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header_area">
+      <div class="header_top">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-5">
+              <ul class="nav social_icon">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-7">
+              <div class="top_btn d-flex justify-content-end">
+                <a href="#">My Account</a>
+                <a href="#">Donate Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand " href="#"> <img class="logo" src="./assests/images/Screenshot from 2022-05-29 14-31-22.png" alt="logo gedenkenAllah"> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Podcast</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Social media
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Instagram</a></li>
+            <li><a class="dropdown-item" href="#">Tiktok action</a></li>
+            <li><a class="dropdown-item" href="#">YouTube</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Registreer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Over ons</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+    </header>
+
+    <section class="banner_area d-flex text-center">
+      <div class="container align-self-center">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="banner_content">
+              <h6>Who Created us</h6>
+              <h1>Keep faith always</h1>
+              <p>
+                If you are looking at blank cassettes on the web, you may be
+                very confused at<br />
+                the difference in price. You may see some for as low as $.17
+                each.
+              </p>
+              <a href="#" class="btn_hover btn_hover_two">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="event_date_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d_flex">
+            <div class="evet_location flex">
+              <h3>Spreading the faith to all</h3>
+              <p><span class="lnr lnr-calendar-full"></span>5th may, 2018</p>
+              <p>
+                <span class="lnr lnr-clock"></span>Saturday, 09.00 am to 05.00
+                pm
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 event_time">
+            <h4>Our Next Event Starts in</h4>
+            <div id="timer" class="timer">
+              <div class="timer__section days">
+                <div class="timer__number days__numbers">00</div>
+                <div class="timer__label">days</div>
+              </div>
+              <div class="timer__section hours">
+                <div class="timer__number hours_numbers">00</div>
+                <div class="timer__label">hours</div>
+              </div>
+              <div class="timer__section minutes">
+                <div class="timer__number minutes_numbers">00</div>
+                <div class="timer__label">Minutes</div>
+              </div>
+              <div class="timer__section seconds">
+                <div class="timer__number seconds_numbers">00</div>
+                <div class="timer__label">seconds</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.2/dayjs.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.2/plugin/duration.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./script.js"></script>
+</html>
